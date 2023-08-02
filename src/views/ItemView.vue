@@ -89,7 +89,7 @@ export default
 		float:right;
 		width:40px;
 		height: 25x;
-		margin-top:-490px;
+		margin-top:-500px;
 		border:none;
 		font-family: arial;
 		font-size: 1.5em;
@@ -105,8 +105,10 @@ export default
 	.item_image img#thumbs
 	{
 		position:relative;
-		margin-left:10%;
 		margin-right: auto;
+		margin-top:30px;
+		width:100%;
+		height: 250px;
 	}
 	.item_image h3,p
 	{
@@ -116,7 +118,7 @@ export default
 	{
 		display:flex;
 		width:450px;
-		margin-top:90px;
+		margin-top:60px;
 		margin-left:auto;
 		margin-right:auto;
 	}
@@ -212,7 +214,7 @@ export default
 		float:right;
 		width:40px;
 		height: 25x;
-		margin-top:-487px;
+		margin-top:-500px;
 		border:none;
 		font-family: arial;
 		font-size: 1.5em;
@@ -228,8 +230,10 @@ export default
 	.item_image img#thumbs
 	{
 		position:relative;
-		margin-left:90px;
 		margin-right: auto;
+		margin-top:30px;
+		width:100%;
+		height: 250px;
 	}
 	.item_image h3,p
 	{
@@ -239,7 +243,7 @@ export default
 	{
 		display:flex;
 		width:450px;
-		margin-top:90px;
+		margin-top:60px;
 		margin-left:auto;
 		margin-right:auto;
 	}
@@ -335,7 +339,7 @@ export default
 		float:right;
 		width:40px;
 		height: 25x;
-		margin-top:-490px;
+		margin-top:-500px;
 		border:none;
 		font-family: arial;
 		font-size: 1.5em;
@@ -351,8 +355,11 @@ export default
 	.item_image img#thumbs
 	{
 		position:relative;
-		margin-left:90px;
 		margin-right: auto;
+		margin-top:30px;
+		width:100%;
+		height: 250px;
+		z-index:0;
 	}
 	.item_image h3,p
 	{
@@ -362,7 +369,7 @@ export default
 	{
 		display:flex;
 		width:450px;
-		margin-top:90px;
+		margin-top:60px;
 		margin-left:auto;
 		margin-right:auto;
 	}
@@ -458,7 +465,7 @@ export default
 		width:40px;
 		height: 25x;
 		float:right;
-		margin-top: -470px;
+		margin-top: -500px;
 		border:none;
 		font-family: arial;
 		font-size: 1.5em;
@@ -474,9 +481,9 @@ export default
 	.item_image img#thumbs
 	{
 		position:relative;
-		margin-left:18%;
-		width:450px;
 		margin-right: auto;
+		width:100%;
+		height: 250px;
 	}
 	.item_image h3,p
 	{
@@ -603,8 +610,9 @@ export default
 	.item_image img#thumbs
 	{
 		position:relative;
-		margin-left:20%;
 		margin-right: auto;
+		width:100%;
+		height: 250px;
 	}
 	.item_image h3,p
 	{
@@ -614,7 +622,7 @@ export default
 	{
 		display:flex;
 		width:450px;
-		margin-top:90px;
+		margin-top:60px;
 		margin-left:auto;
 		margin-right:auto;
 	}
