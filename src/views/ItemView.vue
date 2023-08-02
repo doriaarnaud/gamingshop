@@ -106,8 +106,9 @@ export default
 	{
 		position:relative;
 		margin-right: auto;
+		margin-left: 15%;
 		margin-top:30px;
-		width:100%;
+		width:70%;
 		height: 250px;
 	}
 	.item_image h3,p
@@ -231,8 +232,9 @@ export default
 	{
 		position:relative;
 		margin-right: auto;
+		margin-left: 16%;
 		margin-top:30px;
-		width:100%;
+		width:70%;
 		height: 250px;
 	}
 	.item_image h3,p
@@ -356,8 +358,9 @@ export default
 	{
 		position:relative;
 		margin-right: auto;
+		margin-left:16%;
 		margin-top:30px;
-		width:100%;
+		width:70%;
 		height: 250px;
 		z-index:0;
 	}
@@ -482,7 +485,8 @@ export default
 	{
 		position:relative;
 		margin-right: auto;
-		width:100%;
+		margin-left:17%;
+		width:70%;
 		height: 250px;
 	}
 	.item_image h3,p
@@ -583,11 +587,6 @@ export default
 		margin-right: auto;
 		padding:5px;
 	}
-	.item_image img
-	{
-		width:60%;
-		height:200px;
-	}
 	.itemview .itemview_content button#quit
 	{
 		position:absolute;
@@ -610,7 +609,6 @@ export default
 	.item_image img#thumbs
 	{
 		position:relative;
-		margin-right: auto;
 		width:100%;
 		height: 250px;
 	}

@@ -84,7 +84,7 @@ const itemview=useItemView()
                               <th>Item Total Price</th>
                           </tr>
                           <tr v-for="(item,index) in cartstore.tab_cart" :key="item.index">
-                              <td><img :src="item.ivimagesource" alt="item image" width="150" height></td>
+                              <td><img :src="item.ivimagesource" alt="item image" width="150" height="100"></td>
                               <td>{{ item.itemqtt }}</td>
                               <td>$ {{ item.productprice }}</td>
                               <td>$ {{ item.eachtotalprice }}</td>
