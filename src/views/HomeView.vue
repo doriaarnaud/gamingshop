@@ -121,7 +121,7 @@ let checkoutlabel='Checkout';
 let totalcostlabel='Total';
 export default 
 {
-  name:'Home',
+  name:'HomeView',
   components:
   {
       Products,ItemView,Cart,CartShow,TotalCost,Chariot,Checkout

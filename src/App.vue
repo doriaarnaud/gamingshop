@@ -10,9 +10,11 @@ const productstore=useProductTab()
 
     </Logo>
     <div class="searchbar">
-      <input id="searchbar" v-model="productstore.searchtext" type="text" placeholder="Search..." @input="productstore.filteredlist()"/>
+      <input id="searchbar" v-model="productstore.searchtext" type="text" placeholder="Search..." 
+      @input="productstore.filteredlist()"/>
       <span id="searchcounter" v-if="productstore.searchtext && productstore.filteredlist().length>=1">
-            {{productstore.filteredlist().length}} result<span v-if="productstore.filteredlist().length>=2">s</span> for : <i>{{ productstore.searchtext }}</i>
+      {{productstore.filteredlist().length}} result<span v-if="productstore.filteredlist().length>=2">s</span> 
+      for : <i>{{ productstore.searchtext }}</i>
       </span>
     </div>
   </div>

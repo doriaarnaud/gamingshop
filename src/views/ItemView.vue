@@ -10,11 +10,17 @@
                     {{thumbdescription}}
                 </p>
 				<div class="button_container">
-					<button id="itemviewminus" @click="moins" @mouseup="$emit('itemminus')" :disabled=isitemzero>-</button>
+					<button id="itemviewminus" 
+						@click="moins" 
+						@mouseup="$emit('itemminus')" 
+					:disabled=isitemzero>-</button>
 					<p id="itemviewqtt">{{itemviewqtt}}</p>
 					<button id="itemviewplus" @click="plus" @mouseup="$emit('itemplus')">+</button>
 					<p id="itemviewtotal">{{itemviewtotal}} $</p>
-					<button id="viewaddtocart" @click="$emit('additem')" :disabled="isitemzero">Add to cart</button>
+					<button id="viewaddtocart" 
+						@click="$emit('additem')" 
+						:disabled="isitemzero">Add to cart
+					</button>
 				</div>
                 <button id="quit" @click="$emit('quitter')" @mouseup=quitter>X</button>
 			</div>
