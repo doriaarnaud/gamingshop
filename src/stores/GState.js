@@ -7,15 +7,15 @@ export const useProductTab=defineStore('product_tab',//this is refered as 'produ
   ({
     product_tab:
     [
-      {id:0,idt:'f2eh4y7fbhx684g',price:1,image:"https://images.unsplash.com/photo-1626218174358-7769486c4b79?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",title:'Gm1',description:'This is full product description'},
-      {id:1,idt:'f2eh4y7fbhx684g',price:2,image:"https://images.unsplash.com/photo-1591370874773-6702e8f12fd8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",title:'Gm12',description:'This is full product description'},
-      {id:2,idt:'f2eh4y7fbhx684g',price:3,image:"https://images.unsplash.com/photo-1555680202-c86f0e12f086?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",title:'Gm123',description:'This is full product description'},
-      {id:3,idt:'f2eh4y7fbhx684g',price:4,image:"https://images.unsplash.com/photo-1555680202-c86f0e12f086?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",title:'Gm1432',description:'This is full product description'},
-      {id:4,idt:'f2eh4y7fbhx684g',price:5,image:"https://images.unsplash.com/photo-1626218174358-7769486c4b79?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",title:'Gm143653',description:'This is full product description'},
-      {id:5,idt:'f2eh4y7fbhx684g',price:6,image:"https://images.unsplash.com/photo-1587302912306-cf1ed9c33146?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=680&q=80",title:'Gm165764',description:'This is full product description'},
-      {id:6,idt:'f2eh4y7fbhx684g',price:7,image:"https://images.unsplash.com/photo-1626218174358-7769486c4b79?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",title:'Gm21256',description:'This is full product description'},
-      {id:7,idt:'f2eh4y7fbhx684g',price:8,image:"https://images.unsplash.com/photo-1591370874773-6702e8f12fd8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",title:'Gm521621',description:'This is full product description'},
-      {id:8,idt:'f2eh4y7fbhx684g',price:9,image:"https://images.unsplash.com/photo-1555680202-c86f0e12f086?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",title:'Gm7832112',description:'This is full product description'}
+      {id:0,idt:'f2eh4y7fbhx684g',price:1,image:'src/assets/Products/Product1.png',title:'Gm1',description:'This is full product description'},
+      {id:1,idt:'f2eh4y7fbhx684g',price:2,image:'src/assets/Products/Product2.png',title:'Gm12',description:'This is full product description'},
+      {id:2,idt:'f2eh4y7fbhx684g',price:3,image:'src/assets/Products/Product3.png',title:'Gm123',description:'This is full product description'},
+      {id:3,idt:'f2eh4y7fbhx684g',price:4,image:'src/assets/Products/Product6.png',title:'Gm1432',description:'This is full product description'},
+      {id:4,idt:'f2eh4y7fbhx684g',price:5,image:'src/assets/Products/Product5.png',title:'Gm143653',description:'This is full product description'},
+      {id:5,idt:'f2eh4y7fbhx684g',price:6,image:'src/assets/Products/Product4.png',title:'Gm165764',description:'This is full product description'},
+      {id:6,idt:'f2eh4y7fbhx684g',price:7,image:'src/assets/Products/Product7.png',title:'Gm',description:'This is full product description'},
+      {id:7,idt:'f2eh4y7fbhx684g',price:8,image:'src/assets/Products/Product8.png',title:'Gm',description:'This is full product description'},
+      {id:8,idt:'f2eh4y7fbhx684g',price:9,image:'src/assets/Products/Product9.png',title:'Gm',description:'This is full product description'}
     ],
     directitemqtt:0,//used to initialize the 'itemview' quantity 
     searchtext:''//v-model for the input search in header page
