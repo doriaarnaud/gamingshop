@@ -1,6 +1,7 @@
 <template>
     <div class="itemview">
 		<div class="itemview_content">
+			<h3 id="description"></h3>
 			<div class="item_image">
 				<img id="thumbs"
 				:src="thumbs" 

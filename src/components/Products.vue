@@ -2,9 +2,11 @@
     <div class="card">
         <div class="card_content">
             <div class="image_container">
-                <img id="thumbs" @click="$emit('describe')"
-				:src="thumbs" 
-				alt="Products_Images" />
+				<a href="#description">
+					<img id="thumbs" @click="$emit('describe')"
+					:src="thumbs" 
+					alt="Products_Images" />
+				</a>
                 <h3>Id : {{productid}}<br/>{{thumbtitle}} | $ {{productprice}}</h3>
                 <p>
                     {{thumbdescription}}
