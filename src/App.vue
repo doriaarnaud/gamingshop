@@ -10,7 +10,7 @@ const productstore=useProductTab()
 
     </Logo>
     <div class="searchbar">
-      <input id="searchbar" v-model="productstore.searchtext" type="text" placeholder="Search..." 
+      <input id="searchbar" v-model="productstore.searchtext" type="text" placeholder="(ex:gm14...)" 
       @input="productstore.filteredlist()"/>
       <span id="searchcounter" v-if="productstore.searchtext && productstore.filteredlist().length>=1">
       {{productstore.filteredlist().length}} result<span v-if="productstore.filteredlist().length>=2">s</span> 
