@@ -16,6 +16,7 @@ const productstore=useProductTab()
       {{productstore.filteredlist().length}} result<span v-if="productstore.filteredlist().length>=2">s</span> 
       for : <i>{{ productstore.searchtext }}</i>
       </span>
+	  <a id="mainhomepage" href="https://doriaarnaud.online">Go to Homepage</a>
     </div>
   </div>
 
@@ -80,6 +81,15 @@ import Logo from '@/components/Logo.vue'
     font-family: arial;
     color:#ffffff;
   }
+  #mainhomepage
+  {
+	  display:block;
+	  color:#ffffff;
+	  font-size:1.5em;
+	  text-decoration:none;
+	  font-weight:bold;
+	  font-family:arial;
+  }
 }
 @media (min-width: 992px) and (max-width: 1199px)
 {
@@ -130,6 +140,15 @@ import Logo from '@/components/Logo.vue'
     font-size:1.3em;
     font-family: arial;
     color:#ffffff;
+  }
+  #mainhomepage
+  {
+  	  display:block;
+  	  color:#ffffff;
+  	  font-size:1.5em;
+  	  text-decoration:none;
+  	  font-weight:bold;
+  	  font-family:arial;
   }
 }
 @media (min-width: 768px) and (max-width: 991px)
@@ -182,6 +201,15 @@ import Logo from '@/components/Logo.vue'
     font-family: arial;
     color:#ffffff;
   }
+  #mainhomepage
+  {
+  	  display:block;
+  	  color:#ffffff;
+  	  font-size:1.5em;
+  	  text-decoration:none;
+  	  font-weight:bold;
+  	  font-family:arial;
+  }
 }
 @media (min-width: 576px) and (max-width: 767px)
 {
@@ -233,6 +261,15 @@ import Logo from '@/components/Logo.vue'
     font-family: arial;
     color:#ffffff;
   }
+  #mainhomepage
+  {
+  	  display:block;
+  	  color:#ffffff;
+  	  font-size:1.1em;
+  	  text-decoration:none;
+  	  font-weight:bold;
+  	  font-family:arial;
+  }
 }
 @media (max-width: 575px)
 {
@@ -283,6 +320,15 @@ import Logo from '@/components/Logo.vue'
     font-size:1.3em;
     font-family: arial;
     color:#ffffff;
+  }
+  #mainhomepage
+  {
+  	  display:block;
+  	  color:#ffffff;
+  	  font-size:1.1em;
+  	  text-decoration:none;
+  	  font-weight:bold;
+  	  font-family:arial;
   }
 }
 </style>
