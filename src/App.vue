@@ -16,7 +16,7 @@ const productstore=useProductTab()
       {{productstore.filteredlist().length}} result<span v-if="productstore.filteredlist().length>=2">s</span> 
       for : <i>{{ productstore.searchtext }}</i>
       </span>
-	  <a id="mainhomepage" href="https://doriaarnaud.online">Go to Homepage</a>
+	  <a id="mainhomepage" href="https://doriaarnaud.online">Go to Mainpage</a>
     </div>
   </div>
 
