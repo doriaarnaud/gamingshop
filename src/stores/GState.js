@@ -7,15 +7,15 @@ export const useProductTab=defineStore('product_tab',//this is refered as 'produ
   ({
     product_tab:
     [
-      {id:0,idt:'f2eh4y7fbhx684g',price:1,image:'/Products/Product1.JPG',title:'Gm1',description:'This is full product description'},
-      {id:1,idt:'f2eh4y7fbhx684g',price:2,image:'/Products/Product2.JPG',title:'Gm12',description:'This is full product description'},
-      {id:2,idt:'f2eh4y7fbhx684g',price:3,image:'/Products/Product3.JPG',title:'Gm123',description:'This is full product description'},
-      {id:3,idt:'f2eh4y7fbhx684g',price:4,image:'/Products/Product6.JPG',title:'Gm1432',description:'This is full product description'},
-      {id:4,idt:'f2eh4y7fbhx684g',price:5,image:'/Products/Product5.JPG',title:'Gm143653',description:'This is full product description'},
-      {id:5,idt:'f2eh4y7fbhx684g',price:6,image:'/Products/Product4.JPG',title:'Gm165764',description:'This is full product description'},
-      {id:6,idt:'f2eh4y7fbhx684g',price:7,image:'/Products/Product7.JPG',title:'Gm',description:'This is full product description'},
-      {id:7,idt:'f2eh4y7fbhx684g',price:8,image:'/Products/Product8.JPG',title:'Gm',description:'This is full product description'},
-      {id:8,idt:'f2eh4y7fbhx684g',price:9,image:'/Products/Product9.JPG',title:'Gm',description:'This is full product description'}
+      {id:0,idt:'f2eh4y7fbhx684g',price:1,image:'/Products/Product1.jpg',title:'Gm1',description:'This is full product description'},
+      {id:1,idt:'f2eh4y7fbhx684g',price:2,image:'/Products/Product2.jpg',title:'Gm12',description:'This is full product description'},
+      {id:2,idt:'f2eh4y7fbhx684g',price:3,image:'/Products/Product3.jpg',title:'Gm123',description:'This is full product description'},
+      {id:3,idt:'f2eh4y7fbhx684g',price:4,image:'/Products/Product6.jpg',title:'Gm1432',description:'This is full product description'},
+      {id:4,idt:'f2eh4y7fbhx684g',price:5,image:'/Products/Product5.jpg',title:'Gm143653',description:'This is full product description'},
+      {id:5,idt:'f2eh4y7fbhx684g',price:6,image:'/Products/Product4.jpg',title:'Gm165764',description:'This is full product description'},
+      {id:6,idt:'f2eh4y7fbhx684g',price:7,image:'/Products/Product7.jpg',title:'Gm',description:'This is full product description'},
+      {id:7,idt:'f2eh4y7fbhx684g',price:8,image:'/Products/Product8.jpg',title:'Gm',description:'This is full product description'},
+      {id:8,idt:'f2eh4y7fbhx684g',price:9,image:'/Products/Product9.jpg',title:'Gm',description:'This is full product description'}
     ],
     directitemqtt:0,//used to initialize the 'itemview' quantity 
     searchtext:''//v-model for the input search in header page
