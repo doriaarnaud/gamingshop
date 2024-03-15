@@ -3,7 +3,7 @@
         <div class="card_content">
             <div class="image_container">
 				<a href="#description">
-					<img id="thumbs" @click="$emit('describe')"
+					<img id="thumbs" @click="$emit('describe')" @mouseup="$emit('scroll')"
 					:src="thumbs" 
 					alt="Products_Images" />
 				</a>
